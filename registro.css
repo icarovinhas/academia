@@ -253,6 +253,11 @@ button.edit:hover {
     button.edit {
         margin-left: 12px;
     }
+
+    ´.form {
+        text-align: center;
+    }
+    
 }/* Responsividade do formulário de registro */
 @media (max-width: 768px) {
     form {
