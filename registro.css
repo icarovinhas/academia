@@ -114,7 +114,7 @@ button.delete {
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 10px;
     transition: all 0.3s ease;
 }
 
@@ -168,7 +168,7 @@ button.edit:hover {
         transform: translateY(0);
     }
 }/* Responsividade aprimorada */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     body {
         padding: 10px;
     }
@@ -245,6 +245,14 @@ button.edit:hover {
         float: left;
         color: #ff8c00;
     }
+
+    button.delete {
+        margin-left: 8px;
+    }
+
+    button.edit {
+        margin-left: 12px;
+    }
 }/* Responsividade do formulário de registro */
 @media (max-width: 768px) {
     form {
@@ -258,6 +266,14 @@ button.edit:hover {
     form button {
         width: 100%; /* Ocupa 100% da largura */
         margin: 0; /* Remove margens laterais */
+    }
+
+    button.delete {
+        margin-top: 10px;
+    }
+
+    button.edit {
+        font-size: 11px;
     }
 }
 

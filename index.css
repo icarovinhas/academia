@@ -140,3 +140,61 @@ body {
     background: #ff8c00;
     color: #ffffff;
 }
+
+@media (max-width: 762px) {
+    .hero {
+        padding: 30px 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .feature-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cta-section {
+        padding: 40px 20px;
+    }
+
+    .features h2, .cta-section h2 {
+        font-size: 1.5rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 556px) {
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .cta-buttons .cta {
+        padding: 8px 16px;
+        font-size: 1rem;
+    }
+
+    .feature-box {
+        grid-template-columns: 1fr;
+    }
+
+    .feature {
+        padding: 15px;
+    }
+
+    .cta-section h2 {
+        font-size: 1.3rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
